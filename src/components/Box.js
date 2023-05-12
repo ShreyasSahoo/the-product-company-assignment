@@ -1,11 +1,14 @@
 import React from 'react'
+const Box = ({position}) => {
 
-const Box = () => {
   return (
-    <div className='box'>
+    <div className='box' style={{
+        top: `${position.y}px`,
+        left: `${position.x}px`
+      }}>
       
     </div>
   )
 }
 
-export default Box
+export default Box;

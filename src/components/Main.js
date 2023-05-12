@@ -1,9 +1,9 @@
 import React from 'react'
 import Box from './Box'
-const Main = () => {
+const Main = ({position}) => {
   return (
     <div className='main'>
-        <Box />
+        <Box position={position}/>
     </div>
   )
 }
